@@ -1,6 +1,6 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Eater&family=Flavors&family=Jacques+Francois+Shadow&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Eater&family=Flavors&family=Jacques+Francois+Shadow&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;1,400;1,500&family=Poppins:wght@300;400;500;600;700;800;900&family=Sedgwick+Ave+Display&display=swap');
 ::selection {
   color: rgb(255, 255, 255);
   background-color: rgb(168, 0, 160);
@@ -11,7 +11,7 @@ html {
 }
 /* font and typography */
 :root {
-  --body-font: 'Anonymous Pro', monospace;
+  --body-font: 'Inter', sans-serif;
   --big-font-size: 6.25rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
@@ -88,7 +88,7 @@ h1, h2, p {
   color: rgb(255, 0, 242);
   margin: var(--mb-4) 0;
   text-align: center;
-  font-family: 'Codystar', 'Jacques Francois Shadow', cursive;
+  font-family:'Sedgwick Ave Display', cursive;;
 }
 .section-title::after {
   position: absolute;
@@ -194,7 +194,7 @@ h1, h2, p {
   position: relative;
   top: 10%;
   text-align: center;
-  font-family: 'Codystar', 'Jacques Francois Shadow', cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
   font-size: var(--big-font-size);
   color: #000;
   line-height: .8;
